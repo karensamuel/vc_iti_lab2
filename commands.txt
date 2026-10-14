@@ -3,6 +3,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:karensamuel/vc_iti_lab2.git
 git push -u origin main
+<<<<<<< HEAD
 -- add txt file for commands
 git add .                   
  git commit -m "added txt files"
@@ -13,3 +14,11 @@ git add .
  git commit -m "added dev files"
  git push  origin dev
   // create test branch  and add the new file 
+=======
+// create branch test 
+git branch test
+git checkout test
+git add .
+git commit -m "added test file"
+git push origin test
+>>>>>>> test
