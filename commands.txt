@@ -6,3 +6,6 @@ git push -u origin main
 // create branch test 
 git branch test
 git checkout test
+git add .
+git commit -m "added test file"
+git push origin test
