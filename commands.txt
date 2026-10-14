@@ -36,3 +36,20 @@ git push origin :dev
 locally:
 git branch -d test
 git branch -d dev
+// Tell me how to checkout another branch without commit
+changes
+git stash
+git stash pop
+
+//Create an annotated tag with tagname (v1.7) .
+ git tag -a v1.0 -m "version1.0"
+● Push it to the remote repository.
+git push origin v1.0
+● Tell me how to list tags.
+ git tag 
+● Tell me how to delete tag locally and remotely.
+remotely:
+ git push origin --delete v1.0
+ locally:
+ git tag -d v1.0
+● Add an image in the README.md file.
