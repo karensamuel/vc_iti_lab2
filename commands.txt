@@ -22,3 +22,17 @@ git push origin test
 // merge the dev with test
  git checkout dev
 git merge test
+git add .                     
+ git commit -m "merge  test done"
+ // merge dev to main
+  git checkout main
+git merge dev
+git add .                     
+ git commit -m "merge  dev done"
+// Tell me how to remove them locally and remotely.
+remotely:
+git push origin :test  
+git push origin :dev  
+locally:
+git branch -d test
+git branch -d dev
