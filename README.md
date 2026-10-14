@@ -1,10 +1,10 @@
-git init
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:karensamuel/vc_iti_lab2.git
-git push -u origin main
--- add txt file for commands
-git add .                   
+git init\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin git@github.com:karensamuel/vc_iti_lab2.git \
+git push -u origin main \
+-- add txt file for commands \
+git add . \                  
  git commit -m "added txt files"
  // create dev branch  and add the new file 
  git branch dev
